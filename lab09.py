@@ -43,7 +43,7 @@ def max_profit(prices):
 
 def max_subarray(nums):
     # Outline:
-    # iderate through the nums array adding them together in the sum interger
+    # iderate through the nums array adding them together in the sum interger using Kadanes algorythm
     # TODO: return the largest sum of any contiguous (in-a-row) block of numbers in
     #   `nums`. The list has at least one number.
     MaxSum = nums[0]
